@@ -1,5 +1,5 @@
 export const defaultConfiguration = {
   language: 'ts',
-  sourceRoot: 'src',
+  sourceRoot: 'app',
   collection: '@nestjs/schematics',
 };
