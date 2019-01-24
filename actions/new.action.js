@@ -95,7 +95,7 @@ const mapSchematicOptions = (options) => {
 };
 const generateConfigurationFile = (args, options, collection) => __awaiter(this, void 0, void 0, function* () {
     const schematicOptions = mapConfigurationSchematicOptions(args.concat(options));
-    schematicOptions.push(new schematics_1.SchematicOption('collection', '@nestjs/schematics'));
+    schematicOptions.push(new schematics_1.SchematicOption('collection', '@hyman/schematics'));
     yield collection.execute('configuration', schematicOptions);
 });
 const mapConfigurationSchematicOptions = (inputs) => {

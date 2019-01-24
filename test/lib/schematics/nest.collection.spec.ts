@@ -30,7 +30,7 @@ describe('Nest Collection', () => {
       const collection = new NestCollection(mockedRunner as AbstractRunner);
       await collection.execute(schematic, []);
       expect(mockedRunner.run).toHaveBeenCalledWith(
-        `@nestjs/schematics:${schematic}`,
+        `@hyman/schematics:${schematic}`,
       );
     });
   });
@@ -64,7 +64,7 @@ describe('Nest Collection', () => {
       const collection = new NestCollection(mockedRunner as AbstractRunner);
       await collection.execute(schematic.alias, []);
       expect(mockedRunner.run).toHaveBeenCalledWith(
-        `@nestjs/schematics:${schematic.name}`,
+        `@hyman/schematics:${schematic.name}`,
       );
     });
   });
