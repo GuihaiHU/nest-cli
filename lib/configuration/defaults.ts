@@ -1,5 +1,5 @@
 export const defaultConfiguration = {
   language: 'ts',
   sourceRoot: 'app',
-  collection: '@hyman/schemtatics',
+  collection: '@hyman/schematics',
 };
