@@ -149,7 +149,7 @@ const generateConfigurationFile = async (
     args.concat(options),
   );
   schematicOptions.push(
-    new SchematicOption('collection', '@hyman/schematics'),
+    new SchematicOption('collection', '@hyman/schemtatics'),
   );
   await collection.execute('configuration', schematicOptions);
 };

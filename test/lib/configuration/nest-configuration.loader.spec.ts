@@ -12,7 +12,7 @@ describe('Nest Configuration Loader', () => {
           Promise.resolve(
             JSON.stringify({
               language: 'ts',
-              collection: '@hyman/schematics',
+              collection: '@hyman/schemtatics',
             }),
           ),
         ),
@@ -31,7 +31,7 @@ describe('Nest Configuration Loader', () => {
     ]);
     expect(configuration).toEqual({
       language: 'ts',
-      collection: '@hyman/schematics',
+      collection: '@hyman/schemtatics',
       sourceRoot: 'app',
     });
   });

@@ -29,7 +29,7 @@ export class NestCollection extends AbstractCollection {
   ];
 
   constructor(runner: AbstractRunner) {
-    super('@hyman/schematics', runner);
+    super('@hyman/schemtatics', runner);
   }
 
   public async execute(name: string, options: SchematicOption[]) {
